@@ -1,1 +1,1 @@
-# Configuracion de webpack con router de hash
+# Landing Page para los TechPRO
