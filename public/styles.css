@@ -60,7 +60,6 @@ img {
   max-width: 120rem;
   width: 90%;
   margin: 0 auto;
-  min-height: 100vh;
 }
 
 .main-container {
@@ -71,4 +70,17 @@ img {
 /* utilidades */
 .text-center {
   text-align: center;
+}
+
+/* Degradados */
+
+.degradado-verde {
+  color: transparent;
+  background: linear-gradient(
+    to Right,
+    var(--primaryColor) 0%,
+    var(--secundaryColor) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
 }
